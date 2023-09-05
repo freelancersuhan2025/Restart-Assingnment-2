@@ -1,0 +1,301 @@
+/* All Element style start */
+* {
+  margin: 0px;
+  padding: 0px;
+}
+/* All Element style end */
+/* body Element style start */
+body {width: 1200px;
+     margin: auto;
+      font-family: "Work Sans", sans-serif;}
+
+/* body Element style end */
+
+/* header element start  */
+header {
+  height: 600px;
+  border: 1px solid blue;
+}
+
+/* nav section all style start  */
+  /* comone style  */
+  ul,ol{list-style: none;}
+  a{text-decoration: none;}
+  /* comone style  */
+   
+nav{height:15%;
+    width: 100%;
+    box-shadow:  0 4px 5px 2px gray; ;    
+    }
+nav>ol{display: flex;
+    width: 100%;
+    height: 100%;
+    border: 1px solid red;
+        justify-content: space-around;
+        align-items: center;
+        gap: 10%;
+        list-style: none;}
+        
+ nav .logtitle{border: 1px solid red;
+     height: 50px;
+    width: 20%;
+    display: flex;
+    align-items: center;
+     justify-content: center;}
+nav .logtitle >img{width:35%;}     
+nav .logtitle >h1{font-size: 35px;}
+nav .logtitle >h1>span{color:#f948b2;}
+
+/*about us dev and youtube tick style  */
+ nav .aboutfollw{border: 1px solid blue;
+            width:35%;
+             display: flex;
+             justify-content: space-between;
+              gap:3%;}
+.aboutdev{
+    width:40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px dotted red;
+   
+ }
+.aboutdev>li{color: #3C354F;
+                 font-weight:600;} 
+.Foyoutubetick{
+    width:60%;
+    display:flex;
+    border: 1px solid red;
+    justify-content: space-between;
+    align-items: center;
+   }
+.fo{font-size:17px;
+                       font-weight: 500;}
+.Foyoutubetick .youtube{font-size: 40px;}
+
+.Foyoutubetick .tick{font-size: 30px;}
+
+/* nav section all style end  */
+
+/* banercontander all style start  */
+.bandercontander {
+  width: 100%;
+  height: 85%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+/* baner text  */
+.bandertextcontaner {
+  height: 100%;
+  width: 50%;
+  border: 1px dotted red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(images/Group\ 14.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left top;
+}
+.banertext {
+  border: 1px solid black;
+  height: fit-content;
+  width: fit-content;
+}
+.banertext > h3 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #0b0223;
+}
+.banertext > h1 {
+  font-size:4rem;
+  font-weight: 800;
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;}
+
+.banertext b{
+  color: #534c64;
+  font-weight: 500;
+  margin-top: 4px;
+  font-size: 0.9rem;
+  letter-spacing: .4px;
+  line-height: 18px;
+  font-weight: 500;
+  display:block;
+  margin-bottom:10px;
+}
+
+.banertext > button {
+  padding: 13px 30px;
+  border-radius:27px;
+  border: none;
+  font-weight:500;
+  font-size:.8rem;
+  margin-right: 15px;
+}
+
+.sigbtn{background-color:#FF42A5;
+                 color:white;}
+.gobtn{background-color:#4EC5F7;
+       color: white;
+    font-size: .9rem;}
+/* baner img  */
+.banderimg {
+  border: 1px solid black;
+  height: fit-content;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.banderimg > img {
+height: 100%;
+  border: 1px solid red;
+}
+/* bandercontander all style end  */
+
+/* header element end  */
+
+/**********Online Game section start*******/
+.online_games{width: 100%;
+              height: 600px;
+              border: 1px solid red;
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;}
+/*****online_game_Text*******/
+.online_game_Text{border: 1px dotted black;
+                height: fit-content;
+                width: fit-content; 
+                 display: flex;
+                 flex-direction: column;
+                 align-items: center;
+                 gap:20px;
+                 padding: 30px 0px;
+                 }
+.online_game_Text>h1{font-size:30px;
+                   }               
+.online_game_Text>h1>span{                            
+                            background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+                            background-clip: text;
+                            -webkit-background-clip: text;
+                            -webkit-text-fill-color: transparent;}               
+.online_game_Text>p{font-size: 12px;}               
+
+
+
+   /* games_card_contaner style*/
+.games_card_contaner{display: flex;
+border: 2px dotted black;
+        width:89%;
+        gap: 1%;
+      justify-content: center;}
+.card{border: 1px solid red;
+      width:255px;
+     display: flex;
+    align-items: center;
+    justify-content: center;}
+    figure{height: 100%;}   
+    figcaption{font-size: 14px;} 
+figure>img{width:100%;}
+/**********Online Game section end*******/
+
+/******************Play Instanty section start**********************/
+.play_instanty{position: relative;
+                 border: 1px solid green;
+                height:600px;
+                width: 100%;
+                display: flex;
+                justify-content:center;
+                align-items: center;
+              }
+.play_instantcontaner{
+                     width: 90%;
+                     height: 80%;
+                    border: solid red 1px;
+                    display: flex;
+                    justify-content:center;
+                     align-items: center;
+                     gap: 10px;}              
+.playText{border: 1px solid green;
+                 width: 50%;
+                height:97%;
+                display: flex;
+                align-items: center;
+                justify-content: center;}
+.playTextContaner{border: 1px solid red;
+                  height: fit-content;
+                 width: fit-content;
+                 text-align: end;}
+                  
+.playTextContaner>h1{font-size:35px;
+                    line-height: 40px;}                               
+.playTextContaner>h1>span{color: #f948b2;}  
+.playTextContaner>.playDesc{color: red;
+                            margin-top:20px;
+                            line-height:22px;
+                            font-size: 15px;}
+
+
+                /*****playImgContaner*****/
+.PlayImgContaner{border: 1px solid red;
+                 width: 45%;
+                 height:100%;
+                 }              
+.PlayImgContaner>img{height:100%;}      
+                 /*MidleImg*/
+.MidleImg{position: absolute;
+          bottom: 0px;
+          left:550px;}                 
+.MidleImg>img{
+         width: 200px;}                 
+/******************Play Instanty section end**********************/
+
+
+/*******************Game Cata Style start*********************/
+.gamescat_Contaner{  height: 300px;
+         width: 100%;
+        background-color: #fbecf4;
+        display: flex;
+        align-items: center;
+        justify-content: center;}
+.gameCat{border: 1px dotted black;
+       width:95%;
+       height:180px;
+       
+       flex-direction: row;
+       flex-wrap: wrap;
+       gap:0px 30px;
+       display:flex;
+         justify-content: center;
+         align-items: center;
+         }
+.cat{background-color: white;
+  height: 55px;
+  width: fit-content;
+  padding: 0px 5px;
+  font-size: 13px;
+  display: flex;
+    align-items: center;
+    justify-content:space-between;
+    gap:14px;
+    border-radius:20px;
+    }
+.cat>img{height: 100%;}   
+.cat:hover{border: red 3px solid;
+         color: red;} 
+/*******************Game Cata Style End*********************/
+
+/*************All footer section style start*************/
+footer{background-color: #0B0223;
+       width: 100%;
+       height: 440px;}
+.footContent{border: red 1px solid ;
+            height: fit-content;
+            width:fit-content;}       
+/*************All footer section style end*************/
