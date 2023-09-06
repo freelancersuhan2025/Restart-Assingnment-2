@@ -685,7 +685,7 @@ nav .aboutfollw{display: flex;
 /*********footer all style responsive***********/
 footer{height: 350px;}
 .footContent{width: 50%;
-                gap: 0px;}
+                gap: 17px;}
 .flogtitle>h1{font-size: 20px;
              margin-left: -6px;}  
 .flogtitle>img{width:40px;}
