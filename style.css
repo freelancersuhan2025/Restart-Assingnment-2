@@ -339,8 +339,7 @@ footer{background-color: #0B0223;
  body{width:100%;}
  /*header all media quary start*/
  header{width: 100%;
-  height:850px;
-  border: 2px dodgerblue dotted }
+  height:850px;}
 nav{width: 100%;
     height:20%;
    box-shadow:none;}
@@ -351,10 +350,7 @@ nav>ol{width: 100%;
       gap:8;}    
         
 nav .logtitle{ height: fit-content;
-  width:27%;
-border:solid rgb(20, 11, 11) 1px;
-
- }
+  width:27%;}
 
 nav .logtitle>img{width:25%;}     
 nav .logtitle >h1{font-size: 25px;}
@@ -364,8 +360,7 @@ nav .logtitle >h1{font-size: 25px;}
                flex-direction: column;
                gap: 30px;
                align-items: center;
-               height:fit-content;
-              border: 1px solid red;}
+               height:fit-content;}
 .aboutdev{width: fit-content;
           display: flex;
           flex-direction: column;
@@ -390,8 +385,7 @@ margin-right: 10px;}
   align-items: center;}
   /*bander img contaner*/
   .banderimg {
-    width: 100%;
-    border: 1px solid red;
+    width:95%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -400,11 +394,9 @@ margin-right: 10px;}
   width:100%;
   }
 /*baner text contander*/
-.bandertextcontaner{width: 100%;
-             border: black solid 1px;}
+.bandertextcontaner{width: 100%;}
 .banertext > h3 {font-size: 2rem;}
-.banertext > h1 {
-  font-size:3rem;}
+.banertext > h1 { font-size:3rem;}
 
 .banertext > button {
   padding: 7px 20px;
@@ -420,42 +412,43 @@ margin-right: 10px;}
 
 /**********Online Game section start*******/
 .online_games{width: 100%;
-  height:fit-content;
-  border: 1px solid red;}
+  height:fit-content;}
 
 /*****online_game_Text*******/
-.online_game_Text{border:1px solid red;
-                 width: 100%;
+.online_game_Text{ width: 100%;
                  text-align: center;}
 .online_game_Text>h1{font-size:22px;}
 .online_game_Text>p{font-size: 10px;}
   /* games_card_contaner style*/
-.games_card_contaner{border: 1px solid black;
-                     width: 100%;
+.games_card_contaner{ width: 100%;
                      display: flex;
                      flex-direction: column;}
 .games_card_contaner{display: flex;
 width:100%;
  gap: 20px;}
 .card{width: 100%;
-     border: #0B0223 1px dotted;
-     text-align: center;}
+     text-align: center;
+  }
+
+.card>figure{width:66%;
+  border-radius:17px;
+  box-shadow: 0px 0px 5px 1px rgba(128, 128, 128, 0.202);}  
+.card>figure>figcaption{font-size: 11px;
+                     }   
 /**********Online Game section end*******/
 
 /******Play Instanty start*******/
-.play_instanty{position: relative;
-               border: 1px solid red;}
+.play_instanty{position: relative;}
 .play_instantcontaner{display: flex;
-                      flex-direction: column;
-                        border: 1px  solid black;} 
+                      flex-direction: column;} 
   /* play text contaner */
-.playText{border: 1px rgb(11, 173, 63) double;
-          width: 100%;
+.playText{ width: 100%;
          }
-.playTextContaner{background-color: #0b022336;
-                  text-align: center;}         
+.playTextContaner{text-align: center;
+  margin-bottom: 20px;
+  width: 90%;}         
 .playTextContaner>h1{font-size:20px;
-            line-height: 20px;}    
+            line-height: 26px;}    
 
 .playTextContaner>.playDesc{
                             margin-top:10px;
@@ -463,26 +456,23 @@ width:100%;
                             font-size: 10px;}                    
               
                  /*****playImgContaner*****/
-.PlayImgContaner{ width:100%;
-  height:100%;
-  border: 1px blue solid;
-  }                            
+.PlayImgContaner{ width:80%;
+  height:100%;}                            
   .PlayImgContaner>img{width:100%;}       
   
  /*MidleImg*/
  .MidleImg{position: absolute;
-  bottom: 0px;
-  left:0px;}                 
+  bottom:20px;
+  left:10px;}                 
 .MidleImg>img{
  width: 100px;}      
 
 
 /******Play Instanty end*******/
 /************gamescat_Contaner start**************/
-.gamescat_Contaner{border: 1px solid red;
+.gamescat_Contaner{
   height: 230px;}
-.gameCat{border: 1px solid black;
-  gap:0px 30px;
+.gameCat{ gap:0px 30px;
   height: 140px;
   gap:0px 20px;}
 .cat{
@@ -502,36 +492,30 @@ width:100%;
 
 /*Footer style*/
 footer{height: 350px;}
-.footContent{border:green 1px dashed;
-  gap: 10px;}
+.footContent{ gap: 10px;}
 .flogtitle>h1{font-size: 20px;
              margin-left: -6px;}  
 .flogtitle>img{width:40px;}
-.contractoption{border: 1px solid red;
-                 display: grid;
+.contractoption{ display: grid;
                  grid-template-columns:repeat(3,70px);
                  grid-template-rows: repeat(2,10px);
                   gap: 25px 29px;}
 .socalmedia{width:fit-content;
-  border: 1px solid red;
     display: grid;
     grid-template-columns:repeat(3,50px);
     grid-template-rows: repeat(2,10px);
      gap: 20px 10px;}                  
 #fa-solid{font-size:17px;}
-.contractoption>.option{background-color: #4EC5F7;
-       text-align: center;}
+.contractoption>.option{ text-align: center;}
 .option>a{font-size: 9px;}
 
-.condition{border: 1px solid red;
-  height:fit-content;
+.condition{height:fit-content;
   display: grid;
   grid-template-columns:repeat(2,auto) ;
   grid-template-rows:repeat(2,10px) ;
   gap:20px 90px;
  }
-.condition>.con{background-color: #4EC5F7;
-               font-size: 10px;}
+.condition>.con{ font-size: 10px;}
 
 .copyright >p{font-size:8px;
   color: gray;
@@ -579,6 +563,7 @@ footer{height: 350px;}
   height:fit-content; }
 nav{width: 100%;
     height:40%;
+    margin-top: 20px;
    box-shadow:none;}
 nav>ol{width: 100%;
        display: flex;
@@ -624,8 +609,7 @@ nav .aboutfollw{display: flex;
   justify-content: space-evenly;
   align-items: center;}
   /*bander img contaner*/
-  .banderimg {
-    width: 100%;
+  .banderimg {width: 90%;
     height: 100%;
     display: flex;
     align-items: center;
@@ -636,7 +620,8 @@ nav .aboutfollw{display: flex;
   }
 /*baner text contander*/
 .bandertextcontaner{width: 100%;
-  height:100%;}
+  height:100%;
+  padding: 20px 0px;}
 
 /*** **Online Game Seaction start*****/
    /* games_card_contaner style*/
@@ -658,8 +643,7 @@ nav .aboutfollw{display: flex;
                        display: flex;
                        flex-direction: column-reverse;}
 
- .playText{ width: 100%;
-    }
+ .playText{ width: 100%;}
 .playTextContaner{ width: 60%;
                 text-align: center;}
 
@@ -674,7 +658,28 @@ nav .aboutfollw{display: flex;
            left:0px;}                 
 .MidleImg>img{ width: 200px;}   
 
+/************gamescat_Contaner start**************/
+.gamescat_Contaner{
+  height: 230px;}
+.gameCat{
+  width: 70%;
+   gap:0px 30px;
+  height: 140px;
+  gap:0px 20px;}
+.cat{
+  height:30px;
+  width: fit-content;
+  padding: 0px 2px;
+  font-size:9px;
+  display: flex;
+    align-items: center;
+    gap:9px;
+    border-radius:20px;}
+.cat>img{height:90%;} 
+.cat:hover{border: 1px solid red;}
 
+.gameCat>.hidden{display:none;}
+/************gamescat_Contaner end**************/
 /*********footer all style responsive***********/
 footer{height: 350px;}
 .footContent{width: 50%;
