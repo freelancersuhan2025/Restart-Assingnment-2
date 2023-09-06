@@ -14,40 +14,40 @@ body {width: 1200px;
 /* header element start  */
 header {
   height: 600px;
-  border: 1px solid blue;
 }
 
 /* nav section all style start  */
   /* comone style  */
   ul,ol{list-style: none;}
   a{text-decoration: none;}
+.hidden{display: none;}
+  
   /* comone style  */
    
 nav{height:15%;
     width: 100%;
-    box-shadow:  0 4px 5px 2px gray; ;    
+    box-shadow:  0 4px 5px 2px rgba(128, 128, 128, 0.463); ;    
     }
 nav>ol{display: flex;
     width: 100%;
     height: 100%;
-    border: 1px solid red;
         justify-content: space-around;
         align-items: center;
         gap: 10%;
         list-style: none;}
         
- nav .logtitle{border: 1px solid red;
-     height: 50px;
-    width: 20%;
+ nav .logtitle{ height: 50px;
+    width: 17%;
     display: flex;
     align-items: center;
-     justify-content: center;}
-nav .logtitle >img{width:35%;}     
+     justify-content: space-between;
+    }
+nav .logtitle>img{width:35%;}     
 nav .logtitle >h1{font-size: 35px;}
 nav .logtitle >h1>span{color:#f948b2;}
 
 /*about us dev and youtube tick style  */
- nav .aboutfollw{border: 1px solid blue;
+ nav .aboutfollw{
             width:35%;
              display: flex;
              justify-content: space-between;
@@ -57,23 +57,24 @@ nav .logtitle >h1>span{color:#f948b2;}
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 1px dotted red;
-   
  }
 .aboutdev>li{color: #3C354F;
-                 font-weight:600;} 
+                 font-weight:600;
+                font-size: 15px;} 
 .Foyoutubetick{
     width:60%;
     display:flex;
-    border: 1px solid red;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
+    background-color: #E7E6E9;
+    padding: 13px 0px;
+    border-radius: 8px;
    }
-.fo{font-size:17px;
+.fo{font-size:16px;
                        font-weight: 500;}
-.Foyoutubetick .youtube{font-size: 40px;}
+.Foyoutubetick .youtube{font-size: 36px;}
 
-.Foyoutubetick .tick{font-size: 30px;}
+.Foyoutubetick .tick{font-size:25px;}
 
 /* nav section all style end  */
 
@@ -89,27 +90,25 @@ nav .logtitle >h1>span{color:#f948b2;}
 .bandertextcontaner {
   height: 100%;
   width: 50%;
-  border: 1px dotted red;
   display: flex;
   justify-content: center;
   align-items: center;
   background-image: url(images/Group\ 14.png);
   background-repeat: no-repeat;
   background-size: contain;
-  background-position: left top;
+  background-position: left bottom;
 }
 .banertext {
-  border: 1px solid black;
   height: fit-content;
   width: fit-content;
 }
 .banertext > h3 {
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: 600;
   color: #0b0223;
 }
 .banertext > h1 {
-  font-size:4rem;
+  font-size:3.5rem;
   font-weight: 800;
   background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
   background-clip: text;
@@ -120,9 +119,9 @@ nav .logtitle >h1>span{color:#f948b2;}
   color: #534c64;
   font-weight: 500;
   margin-top: 4px;
-  font-size: 0.9rem;
-  letter-spacing: .4px;
-  line-height: 18px;
+  font-size: 0.8rem;
+  letter-spacing: .4px; 
+  line-height:23px;
   font-weight: 500;
   display:block;
   margin-bottom:10px;
@@ -144,7 +143,6 @@ nav .logtitle >h1>span{color:#f948b2;}
     font-size: .9rem;}
 /* baner img  */
 .banderimg {
-  border: 1px solid black;
   height: fit-content;
   width: 50%;
   height: 100%;
@@ -154,7 +152,6 @@ nav .logtitle >h1>span{color:#f948b2;}
 }
 .banderimg > img {
 height: 100%;
-  border: 1px solid red;
 }
 /* bandercontander all style end  */
 
@@ -163,22 +160,21 @@ height: 100%;
 /**********Online Game section start*******/
 .online_games{width: 100%;
               height: 600px;
-              border: 1px solid red;
               display: flex;
               flex-direction: column;
               justify-content: center;
               align-items: center;}
 /*****online_game_Text*******/
-.online_game_Text{border: 1px dotted black;
-                height: fit-content;
+.online_game_Text{height: fit-content;
                 width: fit-content; 
                  display: flex;
                  flex-direction: column;
                  align-items: center;
-                 gap:20px;
+                 gap:15px;
                  padding: 30px 0px;
                  }
 .online_game_Text>h1{font-size:30px;
+                      font-weight: 800;
                    }               
 .online_game_Text>h1>span{                            
                             background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
@@ -191,23 +187,22 @@ height: 100%;
 
    /* games_card_contaner style*/
 .games_card_contaner{display: flex;
-border: 2px dotted black;
         width:89%;
         gap: 1%;
       justify-content: center;}
-.card{border: 1px solid red;
+.card{
       width:255px;
      display: flex;
     align-items: center;
     justify-content: center;}
     figure{height: 100%;}   
-    figcaption{font-size: 14px;} 
+    figcaption{font-size: 13.5px;
+               color: rgb(87, 87, 87);} 
 figure>img{width:100%;}
 /**********Online Game section end*******/
 
 /******************Play Instanty section start**********************/
 .play_instanty{position: relative;
-                 border: 1px solid green;
                 height:600px;
                 width: 100%;
                 display: flex;
@@ -217,34 +212,31 @@ figure>img{width:100%;}
 .play_instantcontaner{
                      width: 90%;
                      height: 80%;
-                    border: solid red 1px;
                     display: flex;
                     justify-content:center;
                      align-items: center;
                      gap: 10px;}              
-.playText{border: 1px solid green;
-                 width: 50%;
+.playText{width: 50%;
                 height:97%;
                 display: flex;
                 align-items: center;
                 justify-content: center;}
-.playTextContaner{border: 1px solid red;
+.playTextContaner{
                   height: fit-content;
                  width: fit-content;
                  text-align: end;}
                   
-.playTextContaner>h1{font-size:35px;
+.playTextContaner>h1{font-size:30px;
                     line-height: 40px;}                               
 .playTextContaner>h1>span{color: #f948b2;}  
-.playTextContaner>.playDesc{color: red;
+.playTextContaner>.playDesc{color: gray;
                             margin-top:20px;
                             line-height:22px;
-                            font-size: 15px;}
+                            font-size: 13px;}
 
 
                 /*****playImgContaner*****/
-.PlayImgContaner{border: 1px solid red;
-                 width: 45%;
+.PlayImgContaner{ width: 45%;
                  height:100%;
                  }              
 .PlayImgContaner>img{height:100%;}      
@@ -264,10 +256,8 @@ figure>img{width:100%;}
         display: flex;
         align-items: center;
         justify-content: center;}
-.gameCat{border: 1px dotted black;
-       width:95%;
-       height:180px;
-       
+.gameCat{width:95%;
+       height:180px;       
        flex-direction: row;
        flex-wrap: wrap;
        gap:0px 30px;
@@ -294,8 +284,436 @@ figure>img{width:100%;}
 /*************All footer section style start*************/
 footer{background-color: #0B0223;
        width: 100%;
-       height: 440px;}
-.footContent{border: red 1px solid ;
+       height: 440px;
+       display:flex;
+       justify-content: center;
+       align-items: center;}
+.footContent{
             height: fit-content;
-            width:fit-content;}       
+            width:fit-content;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;} 
+.contractoption,
+.flogtitle,
+.copyright,
+.condition,
+.socalmedia{width: fit-content;
+    display: flex;
+       justify-content: center;
+      align-items: center;
+      gap: 10px;}
+.flogtitle>img{width:30%;}
+.flogtitle>h1{font-size:30px;}
+.flogtitle>h1>span{color: #f948b2;}
+
+
+.contractoption{
+                 gap: 60px;
+                 margin-top:20px ;}
+       .option>a{color: white;
+                font-size: 16px;}          
+
+.socalmedia{gap: 40px; 
+            margin-top:20px ;
+            margin-bottom:20px ;}
+.socalmedia>.media>i{font-size: 27px;}
+.condition, .copyright{font-size: 13px;
+                      color: gray;
+                      gap: 50px;}
+
+
 /*************All footer section style end*************/
+
+
+
+
+
+/*******************Media Quary start for Mobile Resposive******************/
+@media screen and (min-width:400px) and (max-width:500px) {
+  /* .hidden{display:none;} */
+
+ body{width:100%;}
+ /*header all media quary start*/
+ header{width: 100%;
+  height:850px;
+  border: 2px dodgerblue dotted }
+nav{width: 100%;
+    height:20%;
+   box-shadow:none;}
+nav>ol{width: 100%;
+       display: flex;
+      flex-direction: column;
+      justify-content:center;
+      gap:8;}    
+        
+nav .logtitle{ height: fit-content;
+  width:27%;
+border:solid rgb(20, 11, 11) 1px;
+
+ }
+
+nav .logtitle>img{width:25%;}     
+nav .logtitle >h1{font-size: 25px;}
+           
+
+.aboutfollw{display: flex;
+               flex-direction: column;
+               gap: 30px;
+               align-items: center;
+               height:fit-content;
+              border: 1px solid red;}
+.aboutdev{width: fit-content;
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+          margin-bottom:10px;}
+.Foyoutubetick{ width:150px;
+                padding: 3px 10px;} 
+.Foyoutubetick .youtube{font-size: 16px;
+margin-right: 10px;} 
+.tick-uu{font-size:16px;}                  
+.fo{font-size:13px;
+   margin-right:10px;}    
+ /*header all media quary end*/
+
+ /* banercontander all style start  */
+ .bandercontander {
+  width: 100%;
+  height:80%;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-evenly;
+  align-items: center;}
+  /*bander img contaner*/
+  .banderimg {
+    width: 100%;
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .banderimg > img {
+  width:100%;
+  }
+/*baner text contander*/
+.bandertextcontaner{width: 100%;
+             border: black solid 1px;}
+.banertext > h3 {font-size: 2rem;}
+.banertext > h1 {
+  font-size:3rem;}
+
+.banertext > button {
+  padding: 7px 20px;
+  border-radius:27px;
+  border: none;
+  font-weight:500;
+  font-size:.6rem;
+  margin-right: 15px;
+}
+
+ /* banercontander all style end*/
+/*header End*/
+
+/**********Online Game section start*******/
+.online_games{width: 100%;
+  height:fit-content;
+  border: 1px solid red;}
+
+/*****online_game_Text*******/
+.online_game_Text{border:1px solid red;
+                 width: 100%;
+                 text-align: center;}
+.online_game_Text>h1{font-size:22px;}
+.online_game_Text>p{font-size: 10px;}
+  /* games_card_contaner style*/
+.games_card_contaner{border: 1px solid black;
+                     width: 100%;
+                     display: flex;
+                     flex-direction: column;}
+.games_card_contaner{display: flex;
+width:100%;
+ gap: 20px;}
+.card{width: 100%;
+     border: #0B0223 1px dotted;
+     text-align: center;}
+/**********Online Game section end*******/
+
+/******Play Instanty start*******/
+.play_instanty{position: relative;
+               border: 1px solid red;}
+.play_instantcontaner{display: flex;
+                      flex-direction: column;
+                        border: 1px  solid black;} 
+  /* play text contaner */
+.playText{border: 1px rgb(11, 173, 63) double;
+          width: 100%;
+         }
+.playTextContaner{background-color: #0b022336;
+                  text-align: center;}         
+.playTextContaner>h1{font-size:20px;
+            line-height: 20px;}    
+
+.playTextContaner>.playDesc{
+                            margin-top:10px;
+                            line-height:18px;
+                            font-size: 10px;}                    
+              
+                 /*****playImgContaner*****/
+.PlayImgContaner{ width:100%;
+  height:100%;
+  border: 1px blue solid;
+  }                            
+  .PlayImgContaner>img{width:100%;}       
+  
+ /*MidleImg*/
+ .MidleImg{position: absolute;
+  bottom: 0px;
+  left:0px;}                 
+.MidleImg>img{
+ width: 100px;}      
+
+
+/******Play Instanty end*******/
+/************gamescat_Contaner start**************/
+.gamescat_Contaner{border: 1px solid red;
+  height: 230px;}
+.gameCat{border: 1px solid black;
+  gap:0px 30px;
+  height: 140px;
+  gap:0px 20px;}
+.cat{
+  height:30px;
+  width: fit-content;
+  padding: 0px 2px;
+  font-size:9px;
+  display: flex;
+    align-items: center;
+    gap:9px;
+    border-radius:20px;}
+.cat>img{height:90%;} 
+.cat:hover{border: 1px solid red;}
+
+.gameCat>.hidden{display:none;}
+/************gamescat_Contaner end**************/
+
+/*Footer style*/
+footer{height: 350px;}
+.footContent{border:green 1px dashed;
+  gap: 10px;}
+.flogtitle>h1{font-size: 20px;
+             margin-left: -6px;}  
+.flogtitle>img{width:40px;}
+.contractoption{border: 1px solid red;
+                 display: grid;
+                 grid-template-columns:repeat(3,70px);
+                 grid-template-rows: repeat(2,10px);
+                  gap: 25px 29px;}
+.socalmedia{width:fit-content;
+  border: 1px solid red;
+    display: grid;
+    grid-template-columns:repeat(3,50px);
+    grid-template-rows: repeat(2,10px);
+     gap: 20px 10px;}                  
+#fa-solid{font-size:17px;}
+.contractoption>.option{background-color: #4EC5F7;
+       text-align: center;}
+.option>a{font-size: 9px;}
+
+.condition{border: 1px solid red;
+  height:fit-content;
+  display: grid;
+  grid-template-columns:repeat(2,auto) ;
+  grid-template-rows:repeat(2,10px) ;
+  gap:20px 90px;
+ }
+.condition>.con{background-color: #4EC5F7;
+               font-size: 10px;}
+
+.copyright >p{font-size:8px;
+  color: gray;
+  text-align: center;
+   line-height:6px;}
+ .pp{display: block;} 
+/*Footer style*/
+}
+/********Media Quary Mobile End**********/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*********Media quary Tablet Reponsibe start**********/
+@media screen and (min-width:500px) and (max-width:768px) {
+
+  .hidden{display:none;}
+
+ body{width:100%;}
+ /*header all media quary start*/
+ header{width: 100%;
+  height:fit-content; }
+nav{width: 100%;
+    height:40%;
+   box-shadow:none;}
+nav>ol{width: 100%;
+       display: flex;
+      flex-direction: column;
+      justify-content:center;
+      gap:30px;
+      }    
+        
+nav .logtitle{ height: fit-content;
+  width:20%; }
+
+nav .logtitle>img{width:38%;}     
+nav .logtitle >h1{font-size: 25px;}
+           
+
+nav .aboutfollw{display: flex;
+               gap: 30px;
+               justify-content: center;
+               align-items: center;
+               height:100%;
+               width:50%;
+              margin-bottom: 20px;}
+.aboutdev{width:60%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap:3px;}
+          .aboutdev>li:first-child{width: 50%;
+                                  font-size: .8rem;}      
+          .aboutdev>li:last-child{ width: 50%;
+                                  font-size: .8rem;}      
+.Foyoutubetick{ width: fit-content;
+                padding: 3px 10px;}    
+.fo{font-size:15px;}    
+ /*header all media quary end*/
+
+ /* banercontander all style start  */
+ .bandercontander {
+  width: 100%;
+  height:60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;}
+  /*bander img contaner*/
+  .banderimg {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .banderimg > img {
+  width: 100%;
+  }
+/*baner text contander*/
+.bandertextcontaner{width: 100%;
+  height:100%;}
+
+/*** **Online Game Seaction start*****/
+   /* games_card_contaner style*/
+.online_games{width: 100%;
+    height: 900px;}
+
+
+.games_card_contaner{display:grid;
+                    grid-template-columns:repeat(2,auto);
+                    grid-template-rows:repeat(2,auto);}
+/*** **Online Game Seaction end*****/
+           
+
+/******************Play Instanty section start*******/
+.play_instanty{position: relative;                 
+                height:900px;}
+
+ .play_instantcontaner{height: 100%;
+                       display: flex;
+                       flex-direction: column-reverse;}
+
+ .playText{ width: 100%;
+    }
+.playTextContaner{ width: 60%;
+                text-align: center;}
+
+
+  /*****playImgContaner*****/
+  .PlayImgContaner{ width:90%;}
+  .PlayImgContaner>img{width:100%;}    
+
+  /*MidleImg*/
+ .MidleImg{position: absolute;
+            bottom:12%;
+           left:0px;}                 
+.MidleImg>img{ width: 200px;}   
+
+
+/*********footer all style responsive***********/
+footer{height: 350px;}
+.footContent{width: 50%;
+                gap: 0px;}
+.flogtitle>h1{font-size: 20px;
+             margin-left: -6px;}  
+.flogtitle>img{width:40px;}
+.contractoption{ width: 100%;
+                 display: grid;
+                 grid-template-columns:repeat(3,70px);
+                 grid-template-rows: repeat(2,10px);
+                  gap: 25px 29px;}
+.socalmedia{width:fit-content;
+  width: 100%;
+    display: grid;
+    grid-template-columns:repeat(3,50px);
+    grid-template-rows: repeat(2,10px);
+     gap: 20px 10px;}                  
+#fa-solid{font-size:17px;}
+.contractoption>.option{
+       text-align: center;}
+.option>a{font-size: 12px;}
+
+.condition{width: 100%;
+  height:fit-content;
+  display: grid;
+  grid-template-columns:repeat(2,auto) ;
+  grid-template-rows:repeat(2,10px) ;
+  gap:20px 90px;
+ }
+.condition>.con{ font-size: 10px;}
+
+.copyright >p{font-size:9px;
+  color: gray;
+  text-align: center;
+   line-height:6px;
+  margin-top: 20px;}
+ .pp{display: block;}
+
+}
+/**********Media quary Tablet Reponsibe****************/
+
