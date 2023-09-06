@@ -595,9 +595,11 @@ nav .aboutfollw{display: flex;
                                   font-size: .8rem;}      
           .aboutdev>li:last-child{ width: 50%;
                                   font-size: .8rem;}      
-.Foyoutubetick{ width: fit-content;
-                padding: 3px 10px;}    
-.fo{font-size:15px;}    
+.Foyoutubetick{ width:50%;               
+                padding: 5px 10px;}    
+.fo{font-size:12px;}    
+#yyy{font-size: 21px;}
+#ttt{font-size: 19px;}
  /*header all media quary end*/
 
  /* banercontander all style start  */
@@ -697,7 +699,9 @@ footer{height: 350px;}
     display: grid;
     grid-template-columns:repeat(3,50px);
     grid-template-rows: repeat(2,10px);
-     gap: 20px 10px;}                  
+     gap: 20px 40px;
+     justify-content: center;
+    align-items: center;}                  
 #fa-solid{font-size:17px;}
 .contractoption>.option{
        text-align: center;}
